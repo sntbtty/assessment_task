@@ -3,7 +3,7 @@ import ghpages from 'gh-pages';
 ghpages.publish(
     'public',
     {
-        branch: 'gh-pages',
+        branch: 'main',
         repo: 'https://github.com/sntbtty/assessment_task.git',
         user: {
             name: 'Alexandra Vlasenko',

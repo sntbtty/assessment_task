@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["src/**/*"],
+
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+
+  "compilerOptions": {
+    "module": "ES2015",
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "skipLibCheck": true
+  }
+}
